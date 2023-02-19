@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Inter:wght@300;400;700&family=Itim&family=Poppins:wght@300;600;700&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/******** Common ************/
+.card{
+    width: 80%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+}
+
+.contactImg{
+  width: 25px;
+  margin-right: 10px;
+}
+
+
+
+.centeringContact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/******** Navbar ************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbarLinks {
+  display: flex;
+}
+
+.navbarLinks li {
+  margin: 0 10px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.navbarLinks li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/******** Home ************/
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1476683874822-744764a2438f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.tagline{
+  margin-top: 10px;
+  color: #fafafa;
+}
+
+/*********** Cards **********/
+.cardCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardExperience{
+    background: #4DFF94;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.cardHead{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.cardPara{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/************** Products ************/
+
+.productHeading{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.cardProdcut{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.productImages{
+    width: 149px;
+    height: 147px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.productInfo{
+    line-height: 1.5;
+}
+
+.productName{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.productDescription{
+    margin-bottom: 20px;
+}
+
+/************** About ************/
+
+#about{
+  background-color: rgba(0, 0, 0, 0.77);
+  color: #fff;
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding: 10px;
+}
+
+.aboutHeading{
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.aboutInformation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.founderImageName{
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.founderImage{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.aboutFounder__title{
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.aboutFounder__name{
+  font-size: 12px;
+  font-weight:300;
+  text-align: center;
+}
+
+.aboutCompany{
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.aboutRead__more{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/************* Contact ********/
+
+.contactTitle{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contactInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/************* Footer ********/
+
+.footer{
+  background-color: #000;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.moreInformation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footerInfo{
+  padding-bottom: 20px;
+}
+
+.footerInfo_common{
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+  margin: 0 auto;
+}
+
+.footerInfo_common li{
+  margin: 5px 5px;
+ 
+}
+
+.footerAddress{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerAddress__address{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}

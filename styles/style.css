@@ -267,3 +267,50 @@ body {
   margin-top: 20px;
   padding-bottom: 30px;
 }
+
+
+
+/*********** About Us Page ******************/
+
+.aboutUsPage{
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+}
+
+.aboutUsTitle{
+  text-align: center;
+  padding: 30px 0;
+}
+
+.about-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUsFounde__Image{
+  width: 100%;
+}
+
+.aboutUsFounderTitle{
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.aboutUsFounderName{
+  padding: 10px 0;
+  font-weight: 300;
+}
+
+.aboutUsCompanyText{
+  padding:10px 20px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.aboutUsAddress{
+  padding: 30px 20px;
+
+}

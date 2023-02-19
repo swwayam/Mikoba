@@ -314,3 +314,29 @@ body {
   padding: 30px 20px;
 
 }
+
+/*********** Gallery ******************/
+
+.gallery{
+  width: 100%;
+  background-color: #33333313;
+}
+
+.galleryTitle{
+  text-align: center;
+  margin: 30px 0;
+  padding-top: 20px;
+  
+}
+
+.galleryImage-grp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryImage{
+  width: 94%;
+  margin: 10px;
+}

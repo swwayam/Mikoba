@@ -15,20 +15,20 @@ body {
 }
 
 /******** Common ************/
-.card{
-    width: 80%;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+.card {
+  width: 80%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
 }
 
-.contactImg{
+.contactImg {
   width: 25px;
   margin-right: 10px;
 }
 
 
 
-.centeringContact{
+.centeringContact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,88 +70,91 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("https://images.unsplash.com/photo-1476683874822-744764a2438f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
   background-size: cover;
   width: 100%;
   height: 300px;
   margin-top: 40px;
 }
 
-.tagline{
+.tagline {
   margin-top: 10px;
   color: #fafafa;
 }
 
 /*********** Cards **********/
-.cardCenter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.cardCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.cardExperience{
-    background: #4DFF94;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
+.cardExperience {
+  background: #4DFF94;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
 }
 
-.cardHead{
-    font-size: 40px;
-    font-weight: 700;
-    padding-top: 20px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
+.cardHead {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.cardPara{
-    text-align: center;
-    margin: 20px 0;
-    font-style: italic;
+.cardPara {
+  text-align: center;
+  margin: 20px 0;
+  font-style: italic;
 }
 
 /************** Products ************/
 
-.productHeading{
-    margin-top: 80px;
-    margin-bottom: 40px;
+.productHeading {
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
-.cardProdcut{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin: 30px 0;
+.cardProdcut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 30px 10px;
+  margin-left: 12vw;
 }
 
-.productImages{
-    width: 149px;
-    height: 147px;
-    margin-right: 20px;
-    margin-left: 20px;
+.productImages {
+  width: 149px;
+  height: 147px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.productInfo{
-    line-height: 1.5;
+.productInfo {
+  line-height: 1.5;
 }
 
-.productName{
-    font-size: 24px;
-    margin-bottom: 10px;
+.productName {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.productDescription{
-    margin-bottom: 20px;
+.productDescription {
+  margin-bottom: 20px;
 }
 
 /************** About ************/
 
-#about{
+#about {
   background-color: rgba(0, 0, 0, 0.77);
   color: #fff;
   width: 100%;
@@ -161,19 +164,19 @@ body {
   padding: 10px;
 }
 
-.aboutHeading{
+.aboutHeading {
   text-align: center;
   margin-bottom: 20px;
   padding-top: 20px;
 }
 
-.aboutInformation{
+.aboutInformation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.founderImageName{
+.founderImageName {
   margin-right: 10px;
   display: flex;
   flex-direction: column;
@@ -181,28 +184,28 @@ body {
   align-items: center;
 }
 
-.founderImage{
+.founderImage {
   width: 150px;
   border-radius: 50%;
 }
 
-.aboutFounder__title{
+.aboutFounder__title {
   font-size: 14px;
   margin: 5px 0;
 }
 
-.aboutFounder__name{
+.aboutFounder__name {
   font-size: 12px;
-  font-weight:300;
+  font-weight: 300;
   text-align: center;
 }
 
-.aboutCompany{
+.aboutCompany {
   line-height: 1.5;
   font-size: 14px;
 }
 
-.aboutRead__more{
+.aboutRead__more {
   display: block;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -211,12 +214,12 @@ body {
 
 /************* Contact ********/
 
-.contactTitle{
+.contactTitle {
   text-align: center;
   margin: 30px 0;
 }
 
-.contactInfo{
+.contactInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -225,13 +228,13 @@ body {
 
 /************* Footer ********/
 
-.footer{
+.footer {
   background-color: #000;
   color: #fff;
   margin-top: 20px;
 }
 
-.moreInformation{
+.moreInformation {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -239,11 +242,11 @@ body {
   padding-top: 20px;
 }
 
-.footerInfo{
+.footerInfo {
   padding-bottom: 20px;
 }
 
-.footerInfo_common{
+.footerInfo_common {
   font-size: 12px;
   display: flex;
   justify-content: space-between;
@@ -252,19 +255,19 @@ body {
   margin: 0 auto;
 }
 
-.footerInfo_common li{
+.footerInfo_common li {
   margin: 5px 5px;
- 
+
 }
 
-.footerAddress{
+.footerAddress {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.footerAddress__address{
+.footerAddress__address {
   text-align: center;
   font-size: 10px;
   margin-top: 20px;
@@ -275,71 +278,108 @@ body {
 
 /*********** About Us Page ******************/
 
-.aboutUsPage{
+.aboutUsPage {
   background-color: #333;
   width: 100%;
   color: #fff;
 }
 
-.aboutUsTitle{
+.aboutUsTitle {
   text-align: center;
   padding: 30px 0;
 }
 
-.about-left{
+.about-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.aboutUsFounde__Image{
+.aboutUsFounde__Image {
   width: 100%;
 }
 
-.aboutUsFounderTitle{
+.aboutUsFounderTitle {
   padding: 10px 0;
   font-size: 18px;
 }
 
-.aboutUsFounderName{
+.aboutUsFounderName {
   padding: 10px 0;
   font-weight: 300;
 }
 
-.aboutUsCompanyText{
-  padding:10px 20px;
+.aboutUsCompanyText {
+  padding: 10px 20px;
   text-align: justify;
   line-height: 2;
 }
 
-.aboutUsAddress{
+.aboutUsAddress {
   padding: 30px 20px;
 
 }
 
 /*********** Gallery ******************/
 
-.gallery{
+.gallery {
   width: 100%;
   background-color: #33333313;
 }
 
-.galleryTitle{
+.galleryTitle {
   text-align: center;
   margin: 30px 0;
   padding-top: 20px;
-  
+
 }
 
-.galleryImage-grp{
+.galleryImage-grp {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.galleryImage{
+.galleryImage {
   width: 94%;
   margin: 10px;
 }
+
+
+/* Product Cards in Windows(min width 650 or 500) */
+
+@media screen and (min-width: 1000px) {
+  .cardProductGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 3rem;
+  }
+
+  .cardProdcut.card {
+    width: 30vw;
+    margin-left: 0;
+  }
+
+  .productImages {
+    width: 250px;
+    height: 150px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .productInfo {
+    line-height: 1.5;
+  }
+
+  .productName {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .productDescription {
+    margin-bottom: 20px;
+  }
+}
+

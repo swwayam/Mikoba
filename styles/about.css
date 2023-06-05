@@ -1,0 +1,14 @@
+.aboutMid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUsFounderImage{
+    height: 40vh;
+    width: 19vw;
+}
+.aboutInfo{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
